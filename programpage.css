@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+}
+button{
+    display: block;
+    margin: auto;
+    color: blueviolet;
+    border-radius: 5px;
+
+
+}
+.color1{
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+.color2{
+    color:crimson ;
+    font-style: italic;
+    text-decoration: underline;
+}
+.color3{
+    color:green;
+    font-style: italic;
+    text-decoration: underline;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: black;
+}
+.link1{
+    color: blue;
+}
+.link2{
+    color: crimson;
+}
+.link3{
+    color: green;
+}
+.link4{
+    color: black;
+}
+body{
+    background-image:none;
+    object-fit:cover ;
+    
+}

@@ -1,0 +1,93 @@
+h4{
+    text-align:center ;
+}
+.line1{
+    margin: 0 auto;
+}
+.line2{
+    margin:0 auto;
+}
+.btn1{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 45px;
+    width: 160px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+}
+.btn2{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 45px;
+    width: 160px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+}
+.btn3{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 45px;
+    width: 160px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+}
+.btn4{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: white;
+    height: 45px;
+    width: 160px;
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+
+}
+.btn5{
+    display: block;
+    margin:auto;
+    margin-bottom: 40px;
+    background-color: blue;
+    border-color: orange;
+    height: 45px;
+    width: 160px;
+    border-radius: 12px;
+    text-align: center;
+}
+header{
+    text-decoration: overline;
+
+}
+footer{
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: overline;
+    font-weight: bold;
+    font-style: italic;
+}
+    
+.btn1:hover{
+    background-color: aqua;
+}
+.btn2:hover{
+    background-color: aqua;
+}
+.btn3:hover{
+    background-color: aqua;
+}
+.btn4:hover{
+    background-color: aqua;
+}
+.btn5:hover{
+    background-color: coral;
+}
