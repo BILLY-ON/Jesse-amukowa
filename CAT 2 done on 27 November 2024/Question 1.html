@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    body{
+        background-color: #f9f7fe;
+        }
+        a{
+        color: rgb(123, 3, 123);
+        }
+        header{
+        padding: 0 0 10px 0;
+        border-top: 5px solid  rgb(170, 146, 118);
+        text-align: center;
+        text-decoration: underline;
+        }
+        h3{
+        padding: 40px 0 0 0;
+        border-top: 5px solid rgb(170, 146, 118) ;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform:capitalize ;
+        }
+        .weather-app{
+        background-color: rgb(170, 146, 118);
+        max-width: 600px;
+        margin: 100px auto;
+        padding: 30px;
+        border-radius: 30px;
+        }
+        h2{
+        color: rgb(81, 49, 10);
+        }
+        .weather-app-temperature-container{
+        display: flex;
+        padding: 40px 0 0 0;
+        border-top: 30px solid   rgb(170, 146, 118);
+        line-height: 30px;
+        text-transform: capitalize;
+        }
+        .weather-data{
+        display: flex;
+        justify-content: space-between;
+        }
+        .weather-app-icon {
+        height: 80px;
+        width: 80px;
+        line-height: 20px;
+        padding-bottom: 10px;
+        margin-top: 3px;
+        }
+        .weather-app-temperature {
+        font-size: 60px;
+        margin-left: 10px;
+        font-weight: bold;
+        display: flex;
+        gap: 10px;
+        }
+        .weather-app-unit {
+        margin-top: 16px;
+        font-size: 20px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        gap: 10px;
+        }
+        .Humidity{
+        color: rgb(123, 3, 123);
+        font-weight: bold;
+        }
+        .form-input{
+        text-decoration: solid;
+        border: none;
+        width: 70%;
+        border-color: blueviolet;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px 15px;
+        }
+        .form-button{
+        border: none;
+        background-color: rgb(123, 3, 123);
+        color: whitesmoke;
+        padding: 10px 15px;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-left: 5px;
+        border-radius: 9px;
+        }
+        footer{
+        padding: 0 0 10px 0;
+        border-top: 5px solid  rgb(170, 146, 118);
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 13px;
+        }
+        .nomatter{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            text-align: center;
+            color: rgb(123, 3, 123);
+        }
+        .space{
+            justify-content: space-between;
+        }
+</style>
+</head>
+<body >
+<div class="weather-app">
+<header>
+<div>
+<h2>
+Welcome to our Weather application
+</h2>
+</div>
+</header>
+<main>
+<div>
+<form action="" class="search-form" id="search-form">
+<input type="search" name="city" id="city-name" placeholder="Enter city name..." class="form-input"/>
+<button type="submit" class="form-button">Search</button>
+</form>
+</div>
+<div class="weather-data">
+<h3>Paris</h3>
+<div class="weather-app-temperature-container">
+<div class="" id="weather-app-icon">
+<img src="https://openweathermap.org/img/wn/10d.png"
+alt="Scattered clouds" class="weather-app-icon">
+</div>
+<div class="weather-app-temperature" id="currenttemperaturevalue">12</div>
+<div class="weather-app-unit"><strong>°C</strong></div>
+</div>
+</div>
+<div>
+<p >
+<span id="currenttime">
+Tuesday
+14.40
+,
+</span>
+<span id="weatherdescription">
+scattered clouds
+</span>
+<br />
+Humidity :
+<span id="Humidity" class="Humidity">
+66
+</span>
+, Wind Speed :
+<span id="windspeed">
+4.3
+</span>
+</p>
+</div>
+<div class="nomatter">
+<div>
+    <p>Mon</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain"
+        >    </p>
+    <p id="space"> <strong>15&deg;</strong>   <span>19&deg;</span></p>
+</div>
+<div>
+    <p>Tue</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain"></p>
+    <p id="space"><strong>15&deg;</strong>   19&deg;</p>
+</div>
+<div>
+    <p>Wed</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain"></p>
+    <p id="space"><strong>15&deg;</strong>    19&deg;</p>
+</div>
+<div>
+    <p>Thur</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain"></p>
+    <p id="space" ><strong>15 &deg;</strong>     19&deg;</p>
+
+</div>
+<div>
+    <p>Fri</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain"></p>
+    <p id="space" ><strong>15&deg;</strong>     19&deg;</p>
+</div>
+<div>
+    <p>Sat</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain" ></p>
+    <p id="space"><strong>15&deg;</strong>      19&deg;</p>
+</div>
+<div>
+    <p>Sun</p>
+    <p><img src="https://openweathermap.org/img/wn/10d.png"
+        alt="shower rain"></p>
+    <p id="space"><strong>15&deg;</strong>      19&deg;</p>
+</div>
+</div>
+</main>
+<footer>
+<div>
+Coded by <a href="https://github.com/BILLY-ON" target="_blank">Jesse Amukowa </a>
+and is on<a href="https://github.com/BILLY-ON/Jesse Amukowa-practical221"
+target="_blank">Github</a>
+and hosted by
+<a href="https://rennishweatherapp.netlify.app/" target="_blank">Netlify.</a>
+<br>
+The design was done using <a href="https://www.figma.com/"
+target="_blank">Figma</a>
+</div>
+</footer>
+</div>
+</body>
+</html>

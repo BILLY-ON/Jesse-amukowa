@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=width-device,initial-scale=1.0">
+        <title>Account Sign In</title>
+        <style>
+            .error{
+                color: red;
+                font-size: 0.9em;
+                margin-left: 380px;
+                transform: translateY(-5%);
+                margin-top: -20px;
+            }
+            .register2{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                width: 700px;
+            }
+            .form-label{
+                min-width: 150px;
+                margin-right: 20px;
+                margin-bottom: 15px;
+                position: relative;
+            }
+            .form-title{
+            text-align: center;
+            }
+            
+            .format{
+                margin-left: 130px;
+                margin-bottom: 20px;
+
+            }
+            input{
+                position: absolute;
+                margin-left: 130px;
+                display: flex; 
+                margin-top: -10px;
+            }
+            .cardtype{
+                position: absolute;
+                margin-left: 130px;
+                display: flex; 
+                margin-top: -20px
+            }
+            .registerform{
+                align-items: center;
+            }
+
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="containerregister1">
+           
+            <form class="registerform"  >
+                <h3 class="form-title"   >Register Account</h3> 
+                <div class="register2"  >
+                    
+                    
+                    <div>
+                        <div>
+                            <label for="fullname" class="form-label">Full Name</label>
+                            <input type="text" id="fullname" class="form-control" placeholder="Enter your Full Name">
+                            <span class="error">Username must be atleast 4 characters</span>
+                        </div>
+                        <div><label for="password" class="form-label">Password:</label>
+                            <input type="password" id="password" class="form-control" placeholder="Enter Your Password">
+                            <span class="error">Password must be at least 4 characters</span></div>
+                        <div>
+                            <label for="confirmpassword" class="form-label">Confirm Password:</label>
+                            <input type="password" id="confirmpassword" class="form-control" placeholder="Re-Enter your Password">
+                            <span class="error">Password do not match!!</span>
+                        </div>
+                        <div>
+                            <label for="email" id="form-label">Email:</label>
+                            <input type="email" id="email" class="form-control" placeholder="john@gmail">
+                            <div class="format">Format:john@gmail.com</div>
+                            <span class="error">Invalid Email Format</span>
+                            
+                        </div>
+                        <div>
+                            <label for="phonenumber" class="form-label">Phone Number:</label>
+                            <input type="text" id="phonenumber" class="form-control" placeholder="0XXX-XXX-XXX">
+                            <div class="format">Format:0XXX-XXX-XXX</div>
+                            <span class="error">Invalid Phone number</span>
+                        </div>
+                        <div>
+                            <label for="zipcode" class="form-label">Zip Code:</label>
+                            <input type="text" id="zipcode" class="form-control" placeholder="Use 5 or 9 digits Zip Code">
+                            <div class="format">Format: Use 5 or 9d igits zip code</div>
+                            <span class="error">Invali zip code</span>
+                        </div>
+                        <div>
+                            <label for="cardType" class="form-label">Card Type:</label>
+                            <select id="cardType" class="form-control">
+                                <option value="visa"  >Visa</option>
+                                <option value="MasterCard">Master Card</option>
+                                <option value="AmEx">American Express</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cardNumber" class="form-label">Card Number</label>
+                            <input type="text" id="cardNumber" class="form-control" placeholder="1111-2222-3333-4444">
+                            <div class="format">Format: 1111-2222-3333-4444</div>
+                            <span class="error">Invalid Card Number Format</span>
+                        </div>
+                        <div>
+                            <label for="expirationDate" class="form-label">Expiration Date:</label>
+                            <input type="text" id="expirationDate" class="form-control" placeholder="YYYY-MM-DD">
+                            <div class="format">Format: YYYY-MM-DD</div>
+                            <span class="error">Invalid Date Format</sp> 
+                        </div>
+                        <div>
+                            <button type="submit" class="btn1">Register</button>
+                            <button type="reset" class="btn1">Clear Form</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
